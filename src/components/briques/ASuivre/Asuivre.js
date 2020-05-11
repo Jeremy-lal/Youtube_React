@@ -1,7 +1,12 @@
 import React from 'react';
-
-export default function ASuivre() {
+import Video from '../Video/VideoHome';
+export default function ASuivre(props) {
     return (
-        <p>A suivre</p>
+        <div>
+            <p>A suivre</p>
+            {
+                props.videos.map((currentVideo) => <Video video={currentVideo} key={currentVideo.id} />)
+            }
+        </div>
     )
 }
