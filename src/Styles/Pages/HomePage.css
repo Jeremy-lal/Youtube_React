@@ -1,0 +1,12 @@
+.videoList {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.videoHome {
+    width: 95%;
+    padding: 1rem;
+    height: auto;
+}
+

@@ -1,15 +1,25 @@
 import React from 'react';
-import Video from './../../briques/Video/Video';
+import VideoHome from './../../briques/Videos/VideoHome';
+import '../../../Styles/Pages/HomePage.css'
 
 
 function HomePage(props) {
 
   return (
-      <div className="App">
+    <div className="home">
+      <h2> Recommandations</h2>
+      <div className="videoList">
         {
-          props.videos.map((currentVideo) => <Video video={currentVideo} key={currentVideo.id}/>)
+          props.videos.map((currentVideo) => {
+            return (
+              <div className="videoHome">
+                <VideoHome video={currentVideo} key={currentVideo.id} />
+              </div>
+            )
+          })
         }
       </div>
+    </div>
   );
 }
 

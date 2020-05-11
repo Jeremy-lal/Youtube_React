@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import VideoPage from './components/Pages/Video/VideoPage';
 import HomePage from './components/Pages/Home/HomePage';
+import Navbar from './components/briques/Navbar'
 import { videosData } from './VideosData'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <Router>
+      <Navbar />
       <Switch>
         <Route path='/video/:id' render={(matchProps) =>
           <VideoPage

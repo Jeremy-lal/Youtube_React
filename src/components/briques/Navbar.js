@@ -1,0 +1,13 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../../Styles/Briques/Navbar/Navbar.css'
+
+export default function Navbar() {
+    return (
+        <div>
+            <Link to='/'>
+                <img src="https://img.phonandroid.com/2017/08/youtube-nouveau-logo.jpg" alt="logo" />
+            </Link>
+        </div>
+    )
+}

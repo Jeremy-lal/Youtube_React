@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import PrincipaleVideo from '../../briques/PrincipaleVideo/PrincipaleVideo';
+import PrincipaleVideo from '../../briques/Videos/PrincipalVideo';
 import ASuivre from '../../briques/ASuivre/Asuivre';
-import './VideoPage.css'
+import '../../../Styles/Pages/VideoPage.css'
 
 export default function VideoPage(props) {
     const id = Number(props.match.params.id);
