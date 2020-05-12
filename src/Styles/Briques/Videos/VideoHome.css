@@ -4,6 +4,24 @@ div {
     flex-direction: column;
 }
 
-iframe {
+.imgHome { 
     width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.descriptionHome {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 20%;
+    border-radius: 50% 1px 50% 1px;    
+}
+
+.title {
+    width: 85%;
+    color: black;
+    font-size: 0.9rem;
 }
