@@ -2,7 +2,6 @@ import React from 'react';
 import VideoHome from './../../briques/Videos/VideoHome';
 import '../../../Styles/Pages/HomePage.css'
 
-
 function HomePage(props) {
 
   return (

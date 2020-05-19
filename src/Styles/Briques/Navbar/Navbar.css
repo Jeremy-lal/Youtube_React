@@ -1,4 +1,32 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 45%;
+    height: 1.5rem;
+    border: 1px solid lightgrey;
+
+}
+
+button {
+    height: 1.756rem;
+    width: 5%;
+    border: 1px solid lightgray;
+    color: grey;
+    background-color: #F9F9F9;
+}
+
 img {
     height: 7vh;
     padding-left: 2rem;
 }
+

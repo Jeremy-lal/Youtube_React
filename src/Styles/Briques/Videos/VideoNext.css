@@ -4,8 +4,19 @@
     margin-bottom: 0.2rem;
 }
 
+.videoNext img {
+    width: 150px;
+    height: auto;
+    padding: 0;
+}
+
 h2 {
     font-size: 0.9rem;
     padding-left: 0.3rem;
 }
 
+.title {
+    width: 85%;
+    color: black;
+    font-size: 0.9rem;
+}

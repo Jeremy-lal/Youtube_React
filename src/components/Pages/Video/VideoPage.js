@@ -7,11 +7,10 @@ export default function VideoPage(props) {
     const id = Number(props.match.params.id);
     const [video, setVideo] = useState({})
 
-
     useEffect(() => {
         const videoClick = props.videos.find(element => element.id === id);
         setVideo(videoClick);
-
+        document.title = videoClick.title;
     }, [id, props.videos]);
 
     return (

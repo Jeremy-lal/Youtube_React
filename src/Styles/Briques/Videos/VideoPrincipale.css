@@ -1,8 +1,33 @@
-.principalVideo {
-    border-bottom: 2px solid lightgrey;
+.musicTitle {
+    width: 100%;
+    font-size: 1.5rem;
 }
 
-.title {
-    font-size: 2rem;
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 1rem 0;
+}
+.logoVideoPage {
+    border-radius: 50%;
 }
 
+.description {
+    padding-left: 2rem;
+}
+
+.description p {
+    margin: 0;
+}
+
+.authorName {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.lastP {
+    padding-top: 1.5rem;
+}
